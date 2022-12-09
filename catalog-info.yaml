@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "test-docs"
-  description: "Test for techdocs"
+  name: test-docs
+  description: Test for techdocs
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/wehkamp/backstage-docs/tree/master/service-two
 spec:
   type: documentation
+  owner: platform
   lifecycle: experimental
-  owner: "platform"
+  
