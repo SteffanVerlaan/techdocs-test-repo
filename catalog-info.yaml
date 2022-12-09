@@ -4,7 +4,7 @@ metadata:
   name: test-docs
   description: Test for techdocs
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/wehkamp/backstage-docs/tree/master/service-two
+    backstage.io/techdocs-ref: url:https://github.com/wehkamp/backstage-docs/tree/master/service-two/mkdocs.yml
 spec:
   type: documentation
   owner: platform
